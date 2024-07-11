@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="flex h-screen max-h-screen">
       {/* TODO: OTP Verification | PasskeyModal */}
@@ -41,4 +41,6 @@ export default function Home() {
       />
     </div>
   );
-}
+};
+
+export default Home;
